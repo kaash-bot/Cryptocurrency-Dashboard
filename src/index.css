@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency-converter {
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  background-color: aqua;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.exchange-rate {
+  position: relative;
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 10px;
+  bottom: 5px;
+}
+
+.curr-options {
+  overflow: auto;
+}
+
+
+#convert-button {
+  float: none;
+  border: none;
+  margin: 2px;
+}
+
+#convert-button:hover {
+  background-color: springgreen;
+}
